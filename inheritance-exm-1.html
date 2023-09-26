@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inheritance example</title>
+</head>
+<body>
+
+    <script>
+
+        class father{
+
+            prop(v){
+
+                console.log(v)
+
+            }
+
+        }
+
+        class mother extends father{
+
+        }
+
+        class son extends mother{
+            
+
+        }
+
+        class daughter extends mother{
+
+        }
+
+        const getprop = new daughter;
+        getprop.prop(100)
+    </script>
+    
+</body>
+</html>
